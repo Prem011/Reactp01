@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: 'CHEESEBURGA';
+  src: url('/fonts/CHEESEBURGA demo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gradient1 {
+  background: hsla(0, 0%, 100%, 1);
+
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(54, 90%, 45%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(54, 90%, 45%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(54, 90%, 45%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#DBC70C", GradientType=1 );
+}
+
+.gradient2{
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 100%, 42%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 100%, 42%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 100%, 42%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#00D4D4", GradientType=1 );
+}
+
+.gradient3{
+  background: hsla(0, 0%, 100%, 1);
+
+background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(288, 100%, 58%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(288, 100%, 58%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(288, 100%, 58%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#D427FF", GradientType=1 );
+}
+
+.gradient4{
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(359, 42%, 39%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(359, 42%, 39%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(359, 42%, 39%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#8F3A3C", GradientType=1 );
+}
+
+.noScrollBar {
+  overflow-x: auto;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+/* For Chrome, Safari, and Opera */
+.noScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.bgPage9{
+  background: hsla(220, 86%, 60%, 1);
+
+background: linear-gradient(90deg, hsla(220, 86%, 60%, 1) 0%, hsla(216, 100%, 75%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(220, 86%, 60%, 1) 0%, hsla(216, 100%, 75%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(220, 86%, 60%, 1) 0%, hsla(216, 100%, 75%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#417DF1", endColorstr="#80B3FF", GradientType=1 );
+}
+
+@font-face {
+  font-family: 'Barron';
+  src: url('./public/fonts/BaronKuffner.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.bebas-neue-regular {
+  font-family: "Bebas", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Targeting the scrollbar container */
+.editedScrollbar::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Targeting the track (background) of the scrollbar */
+.editedScrollbar::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background color for the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Targeting the thumb (the draggable part) of the scrollbar */
+.editedScrollbar::-webkit-scrollbar-thumb {
+  background-color: #6e7275; /* Color of the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 3px solid #ffffff; /* Optional border around the thumb */
+}
+
+/* Hover effect for the thumb */
+.editedScrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #357ABD; /* Darker color when hovered */
+}
+
