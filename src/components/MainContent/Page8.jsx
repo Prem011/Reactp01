@@ -37,13 +37,13 @@ const Page8 = () => {
           >
             <div className='flex flex-nowrap h-[19.102vw] p-[1%] gap-[6.3vw]'>
 
-              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./public/LostDog/locationspreview.png)] bg-cover bg-no-repeat '/>
-              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./public/LostDog/locationspreview.png)] bg-cover bg-no-repeat '/>
-              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./public/LostDog/Abilities.png)] bg-cover bg-no-repeat '/>
-              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./public/LostDog/artifacts.png)] bg-cover bg-no-repeat '/>
-              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./public/LostDog/locationspreview.png)] bg-cover bg-no-repeat '/>
-              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./public/LostDog/Abilities.png)] bg-cover bg-no-repeat '/>
-              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./public/LostDog/artifacts.png)] bg-cover bg-no-repeat '/>
+              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./locationspreview.png)] bg-cover bg-no-repeat '/>
+              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./locationspreview.png)] bg-cover bg-no-repeat '/>
+              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./Abilities.png)] bg-cover bg-no-repeat '/>
+              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./artifacts.png)] bg-cover bg-no-repeat '/>
+              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./locationspreview.png)] bg-cover bg-no-repeat '/>
+              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./Abilities.png)] bg-cover bg-no-repeat '/>
+              <div className='w-[23vw] h-full rounded-[2vw] flex justify-center items-center font-black text-[1.5vw] bg-[url(./artifacts.png)] bg-cover bg-no-repeat '/>
 
             </div>
           </div>

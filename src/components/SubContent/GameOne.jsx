@@ -24,28 +24,28 @@ const GameOne = () => {
   }, []);
 
   return (
-    <div className='w-full h-screen bg-[url(./public/page7/Alabay_Guard_prev_gradient.png)] bg-no-repeat bg-cover pl-[4.219vw] fixed'>
+    <div className='w-full h-screen bg-[url(./Alabay_Guard_prev_gradient.png)] bg-no-repeat bg-cover pl-[4.219vw] fixed'>
 
       {/* Scroller */}
-      <div className="w-[1.7vw] h-[24.844vw] top-[20.383vw] right-[2vw] absolute flex flex-col justify-between " >
+      {/* <div className="w-[1.7vw] h-[24.844vw] top-[20.383vw] right-[2vw] absolute flex flex-col justify-between " > */}
 
-        <div className="w-[1.7vw] h-[1.7vw] bg-slate-400 p-2 rotate-[-90deg] rounded-[.5vw] " >
+        {/* <div className="w-[1.7vw] h-[1.7vw] bg-slate-400 p-2 rotate-[-90deg] rounded-[.5vw] " >
           <img src="https://img.icons8.com/?size=100&id=59862&format=png&color=ffffff" alt="" />
-        </div>
+        </div> */}
 
         {/* Scroller movement based on scroll position */}
-        <div className="w-[1.7vw] h-[10.8vw] bg-slate-400 rounded-full relative">
+        {/* <div className="w-[1.7vw] h-[10.8vw] bg-slate-400 rounded-full relative">
           <div
             className="w-[1.7vw] h-[5.4vw] bg-[#A4A8FF] rounded-full absolute"
             style={{ top: `${scrollPosition}%` }} // Move the scroller based on scroll
           ></div>
-        </div>
+        </div> */}
 
-        <div className="w-[1.7vw] h-[1.7vw] bg-slate-400 p-2 rotate-[90deg] rounded-[.5vw] " >
+        {/* <div className="w-[1.7vw] h-[1.7vw] bg-slate-400 p-2 rotate-[90deg] rounded-[.5vw] " >
           <img src="https://img.icons8.com/?size=100&id=59862&format=png&color=ffffff" alt="" />
         </div>
 
-      </div>
+      </div> */}
 
       {/* Content */}
       <h1 className='text-white text-[5vw] w-[32.271vw] font-[Barron] pt-[5.135vw]'>
@@ -55,7 +55,8 @@ const GameOne = () => {
         SHEPHERD OF THE STEPPES
       </h1>
 
-      <div className="w-full h-[41.333vw] overflow-y-scroll noScrollBar">
+      <div className="w-full h-[41.333vw] overflow-y-scroll relative game1ScrollBar ">
+        {/* <div className="gameScrollBar mx-auto bg-red-800 " /> */}
         <div className="mb-[3vw]">
           <p className="text-[1.146vw] text-[#FFFFFF] font-bold mt-[2vw]">
             Take on the role of the legendary Alabay on a <br /> quest to uncover the ancient secrets of its <br /> ancestors.
@@ -72,9 +73,9 @@ const GameOne = () => {
             </h1>
 
             <div className="flex gap-[3vw] mt-[2vw]">
-              <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./public/guard/image 1 alabay guard.png" alt="" />
-              <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./public/guard/image 2 alabay guard.png" alt="" />
-              <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./public/guard/image 3 alabay guard.png" alt="" />
+              <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="/image 1 alabay guard.png" alt="" />
+              <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="/image 2 alabay guard.png" alt="" />
+              <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="/image 3 alabay guard.png" alt="" />
             </div>
           </div>
         </div>

@@ -64,7 +64,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
 }
 
 .noScrollBar {
-  overflow-x: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none;  /* For Internet Explorer and Edge */
 }
@@ -108,7 +109,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#417DF1", en
 
 /* Targeting the track (background) of the scrollbar */
 .editedScrollbar::-webkit-scrollbar-track {
-  background: #f0f0f0; /* Background color for the track */
+  /* background: #f0f0f0;*/
+  background: transparent;
   border-radius: 10px; /* Rounded corners for the track */
 }
 
@@ -116,11 +118,65 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#417DF1", en
 .editedScrollbar::-webkit-scrollbar-thumb {
   background-color: #6e7275; /* Color of the thumb */
   border-radius: 10px; /* Rounded corners for the thumb */
-  border: 3px solid #ffffff; /* Optional border around the thumb */
+  /* border: 3px solid #ffffff;  */
 }
 
 /* Hover effect for the thumb */
 .editedScrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: #357ABD; /* Darker color when hovered */
+  background-color: #6e7275a9; /* Darker color when hovered */
 }
 
+
+/* Adjust the height of the container with the scrollbar */
+.game1ScrollBar {
+  /* height: 30vw;  */
+  overflow-y: auto; /* Enable vertical scrollbar */
+}
+
+/* Custom scrollbar styles */
+.game1ScrollBar::-webkit-scrollbar {
+  width: 1.2vw;  /* Width of the scrollbar */
+  margin-right: 2vw;
+}
+
+.game1ScrollBar::-webkit-scrollbar-track {
+  background: #58545460;
+  border-radius: 10px;
+}
+
+.game1ScrollBar::-webkit-scrollbar-thumb {
+  background-color: #A4A8FF;
+  border-radius: 10px;
+  /* border: 3px solid #ffffff; */
+}
+
+.game1ScrollBar::-webkit-scrollbar-thumb:hover {
+  background-color: #5860f6c6
+}
+
+/* Adjust the height of the container with the scrollbar */
+.game2ScrollBar {
+  /* height: 30px;  */
+  overflow-y: auto; /* Enable vertical scrollbar */
+}
+
+/* Custom scrollbar styles */
+.game2ScrollBar::-webkit-scrollbar {
+  width: 1.2vw;  /* Width of the scrollbar */
+  margin-right: 2vw;
+}
+
+.game2ScrollBar::-webkit-scrollbar-track {
+  background: #58545460;
+  border-radius: 10px;
+}
+
+.game2ScrollBar::-webkit-scrollbar-thumb {
+  background-color: #90FFAE;
+  border-radius: 10px;
+  /* border: 3px solid #ffffff; */
+}
+
+.game2ScrollBar::-webkit-scrollbar-thumb:hover {
+  background-color: #5860f6c6
+}

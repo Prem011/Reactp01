@@ -3,21 +3,9 @@ import React from 'react'
 const GameTwo = () => {
  
     return (
-        <div className='w-full h-screen bg-[url(./public/page7/Alabay_heritage_prev_gradient.png)] bg-no-repeat bg-cover pl-[4.219vw] fixed'>
+        <div className='w-full h-screen bg-[url(./Alabay_heritage_prev_gradient.png)] bg-no-repeat bg-cover pl-[4.219vw] fixed'>
   
-          <div className="w-[1.7vw] h-[14.844vw] top-[20.383vw] right-[2vw] absolute flex flex-col justify-between " >
-  
-              <div className="w-[1.7vw] h-[1.7vw] bg-slate-400 p-2 rotate-[-90deg] rounded-[.5vw] " >
-                  <img src="https://img.icons8.com/?size=100&id=59862&format=png&color=ffffff" alt="" />
-              </div>
-              <div className="w-[1.7vw] h-[10.8vw] bg-slate-400  rounded-full " >
-                  <div className="w-[1.7vw] h-[5.4vw] bg-[#90FFAE]  rounded-full" ></div>
-              </div>
-              <div className="w-[1.7vw] h-[1.7vw] bg-slate-400 p-2 rotate-[90deg] rounded-[.5vw] " >
-                  <img src="https://img.icons8.com/?size=100&id=59862&format=png&color=ffffff" alt="" />
-              </div>
-              
-          </div>
+          
   
           <h1 className='text-white text-[5vw] w-[32.271vw] font-[Barron] pt-[5.135vw] '>
           ALABAY GUARDIAN <br />
@@ -26,7 +14,7 @@ const GameTwo = () => {
               SHEPHERD OF THE STEPPES
           </h1>
   
-          <div className="w-full h-[41.333vw] overflow-y-scroll noScrollBar" >
+          <div className="w-full h-[41.333vw] overflow-y-scroll game2ScrollBar" >
               
               <div className="mb-[3vw]" >
                   <p className="text-[1.146vw] text-[#FFFFFF] font-bold mt-[2vw]" >
@@ -42,10 +30,10 @@ const GameTwo = () => {
                       <h1 className="text-[1.667vw] font-semibold text-white"><span className="text-[#90FFAE] " >GAME</span> PREVIEW</h1>
   
                       <div className="flex gap-[3vw] mt-[2vw] " >
-                          <img className="w-[25vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./public/LostDog/overview.png" alt="" />
-                          <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./public/LostDog/Abilities.png" alt="" />
-                          <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./public/LostDog/artifacts.png" alt="" />
-                          <img className="w-[25vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./public/LostDog/locationspreview.png" alt="" />
+                          <img className="w-[25vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./overview.png" alt="" />
+                          <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./Abilities.png" alt="" />
+                          <img className="w-[16.016vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./artifacts.png" alt="" />
+                          <img className="w-[25vw] h-[16.016vw] border-4 rounded-[2vw] border-white" src="./locationspreview.png" alt="" />
   
                       </div>
   

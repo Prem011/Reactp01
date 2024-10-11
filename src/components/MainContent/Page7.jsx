@@ -82,23 +82,23 @@ const Page7 = () => {
         <div className='w-[64.531vw] z-10 flex h-[42.188vw] rounded-[2vw] mx-auto  relative overflow-x-auto overflow-y-hidden noScrollBar' ref={merchandiseScrollRef}>
           <div className='flex flex-nowrap'>
             {/* Pink T-Shirt Image */}
-            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./public/page7/pink_tee_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
-              <img src="./public/page7/pink_tshirt.png" alt="Pink T-Shirt" />
+            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./pink_tee_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+              <img src="./pink_tshirt.png" alt="Pink T-Shirt" />
             </div>
 
             {/* Blue Cap */}
-            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./public/page7/blue_cap_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
-              <img src="./public/page7/cap_mockup.png" alt="Blue Cap" />
+            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./blue_cap_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+              <img src="./cap_mockup.png" alt="Blue Cap" />
             </div>
 
             {/* Yellow T-Shirt */}
-            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./public/page7/yellow_tee_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
-              <img src="./public/page7/yellow_tshirt.png" alt="Yellow T-Shirt" />
+            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./yellow_tee_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+              <img src="./yellow_tshirt.png" alt="Yellow T-Shirt" />
             </div>
 
             {/* Black Hoodie */}
-            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./public/page7/black_hoodie_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
-              <img src="./public/page7/black_hoodie.png" alt="Black Hoodie" />
+            <div className='w-[64.531vw] h-[42.188vw] bg-[url(./black_hoodie_bck.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+              <img src="./black_hoodie.png" alt="Black Hoodie" />
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ const Page7 = () => {
         <div className='w-[87.963vw] h-[49.479vw] mt-[5vw] mb-[5vw] z-10 flex rounded-[2vw] mx-autorelative overflow-x-auto overflow-y-hidden noScrollBar border-8 border-white mx-auto ' ref={gamesScrollRef}>
           <div className='flex flex-nowrap '>
             {/* Game-1 */}
-            <div className='w-[87.963vw] h-[49.479vw] bg-[url(./public/page7/alabay_guard_prev.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center relative'>
+            <div className='w-[87.963vw] h-[49.479vw] bg-[url(./alabay_guard_prev.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center relative'>
              <div className='w-full h-full flex justify-center items-center' >
              <Link to={'/gameOne'} className='rounded-full w-[17vw] h-[5vw] mt-[27vw] bg-[#843AFC] inline-flex justify-center items-center text-[1.6vw] font-black gap-[.5vw] text-white'>Discover
                 <img className='w-[2.8vw]' src="https://img.icons8.com/?size=100&id=39803&format=png&color=ffffff" alt="" />
@@ -134,13 +134,13 @@ const Page7 = () => {
             </div>
 
             {/* Game-2 */}
-            <div className='w-[87.963vw] h-[49.479vw] bg-[url(./public/page7/alabay_lost_heritage_prev.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+            <div className='w-[87.963vw] h-[49.479vw] bg-[url(./alabay_lost_heritage_prev.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
               <Link to={'/gameTwo'} className='rounded-full w-[17vw] h-[5vw] mt-[27vw] bg-[#45D689] inline-flex justify-center items-center text-[1.6vw] font-black gap-[.5vw] text-white'>Discover
                 <img   className='w-[2.8vw]' src="https://img.icons8.com/?size=100&id=39803&format=png&color=ffffff" alt="" />
               </Link>
             </div>
 
-            <div className='w-[87.963vw] h-[49.479vw] bg-[url(./public/page7/alabay_guard_prev.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
+            <div className='w-[87.963vw] h-[49.479vw] bg-[url(./alabay_guard_prev.png)] rounded-[1vw] bg-cover bg-center bg-no-repeat flex justify-center items-center'>
               <Link to={'/gameOne'} className='rounded-full w-[17vw] h-[5vw] mt-[27vw] bg-[#843AFC] inline-flex justify-center items-center text-[1.6vw] font-black gap-[.5vw] text-white'>Discover
                 <img className='w-[2.8vw]' src="https://img.icons8.com/?size=100&id=39803&format=png&color=ffffff" alt="" />
               </Link>

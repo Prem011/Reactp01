@@ -22,7 +22,7 @@ const Page9 = () => {
                 <div className="w-[80%]  flex mx-auto items-center gap-[1.5vw]">
 
                 <div className='w-[3.5vw] h-[3.5vw] rounded-full bg-zinc-900' >
-                  <img className='p-4 cursor-pointer' src="./public/page9/twitter logo 1.png" alt="" />
+                  <img className='p-4 cursor-pointer' src="./twitter logo 1.png" alt="" />
                 </div>
                 <span className="text-white text-[1.4vw] font-black cursor-pointer hover:scale-105">Twitter Link</span>
                 </div>
@@ -30,7 +30,7 @@ const Page9 = () => {
                 <div className="w-[80%]  flex mx-auto items-center gap-[1.5vw]">
 
                 <div className='w-[3.5vw] h-[3.5vw] rounded-full flex justify-center items-center bg-zinc-900' >
-                  <img className='p-[.7vw] cursor-pointer' src="./public/page9/Mask group.png" alt="" />
+                  <img className='p-[.7vw] cursor-pointer' src="./Mask group.png" alt="" />
                 </div>
 
                 <span className="text-white text-[1.4vw] font-black cursor-pointer hover:scale-105">Telegram Link</span>
@@ -43,7 +43,7 @@ const Page9 = () => {
         </div>
 
         <div>
-          <img src="./public/page9/contact.png" alt="" />
+          <img src="./contact.png" alt="" />
         </div>
 
       </div>
