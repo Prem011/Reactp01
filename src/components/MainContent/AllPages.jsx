@@ -11,7 +11,7 @@ import Page9 from './Page9';
 
 const AllPages = () => {
   return (
-    <div className='absolute bottom-[-88vh] bg-white rounded-[2vw] h-full w-[90%] overflow-y-auto editedScrollbar '>
+    <div className='absolute bottom-[-88vh] bg-white rounded-s-[2vw] rounded-e-[2vw] h-full w-[90%] overflow-y-auto editedScrollbar '>
 
         <Page1/>
         <Page2/>

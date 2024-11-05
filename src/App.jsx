@@ -12,14 +12,14 @@ gsap.registerPlugin(ScrollTrigger);
 const ScrollAnimation = () => {
 
   return (
-    <div className="h-screen w-full "> {/* Tailwind CSS for full height and padding */}
-
+    <div className="h-screen w-full"> {/* Tailwind CSS for full height and width */}
+      
       <Routes>
-        <Route path="/" element={<LandingPage/>}  />
-        <Route path="/gameOne" element={<GameOne/>}  />
-        <Route path="/gameTwo" element={<GameTwo/>}  />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/gameOne" element={<GameOne />} />
+        <Route path="/gameTwo" element={<GameTwo />} />
       </Routes>
-     
+      
     </div>
   );
 };

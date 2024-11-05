@@ -18,7 +18,7 @@ const Page7 = () => {
       if (container.scrollLeft + container.clientWidth >= maxScrollLeft) {
         container.scrollTo({ left: 0, behavior: 'smooth' }); // Scroll back to the start
       } else {
-        container.scrollBy({ left: 1548.8, behavior: 'smooth' }); // Adjust this value as needed
+        container.scrollBy({ left: 1238, behavior: 'smooth' }); // Adjust this value as needed
       }
     }
   };
@@ -72,7 +72,7 @@ const Page7 = () => {
       </h1>
 
       {/* Merchandise Box */}
-      <div className='flex items-center'>
+      <div className='flex items-center  '>
         {/* Left Arrow - Scroll Back */}
         <div className='w-[5vw] m-auto h-[5vw] rounded-full bg-zinc-800 flex justify-center items-center cursor-pointer' onClick={scrollBack}>
           <img className='p-5' src="https://img.icons8.com/?size=100&id=39776&format=png&color=ffffff" alt="scroll back" />
@@ -148,14 +148,6 @@ const Page7 = () => {
           </div>
         </div>
 
-        {/* <div className='w-[5vw] h-full flex justify-center items-center'>
-          <div
-            className='w-[5vw] h-[7vw] p-2 rounded-[1vw] absolute bg-[#353535] flex justify-center items-center cursor-pointer'
-            
-          >
-            <img src="https://img.icons8.com/?size=100&id=VjUxG2ZHfWSs&format=png&color=ffffff" alt="" />
-          </div>
-        </div> */}
 
       </div>
     </div>
